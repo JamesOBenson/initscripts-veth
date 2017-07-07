@@ -15,6 +15,8 @@ Sample configuration for a `veth` interface:
 	VETH_PARENT="testbridge"
 	VETH_MAC="fe:fe:fe:fe:fe:fe"
 
+Make sure that the ifup-veth and ifdown-veth are both executable.
+
 License
 =======
 
